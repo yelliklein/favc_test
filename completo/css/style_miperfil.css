@@ -1,0 +1,439 @@
+/* Autor: Yenelli Bustos            */
+/* Email: ybustos@kleinundgross.net */
+
+/*PADDING*/
+.padding_5_bot{padding-bottom: 10px}
+
+/*TXT*/
+.txt_centered{text-align: center;}
+.nopadding{padding:0;}
+.txt_orange{color:#ed8b44 !important;}
+
+/*************************************************** Mi perfil **************************************************/
+
+.mi_perfil_container{width: 88%; margin: 0 auto;}
+.header-miperfil-wrapper{position: relative; width: 100%; }
+.header-miperfil-bg{background-size: cover; background-position: center center; background-repeat: no-repeat; height: 275px; background-image:url(../img/dummy-img/stages/stage-miperfil.jpg); }
+.header-miperfil{    padding-top: 124px;}
+.header-miperfil-wrapper h4{color: #ef8824;    font-size: 21px;    font-weight: bold;     letter-spacing: 1px;margin-top: 20px;    margin-bottom: 10px;}
+.profile_picture {    width: 195px;    height: 195px;  }
+.header-miperfil .col-1-4 {width: 19%;}
+.profile_name{  letter-spacing: 2px;      padding: 105px 0 0 0; }
+.profile_menu {    margin-top: 13px;    display: inline-block;}
+.profile_menu ul {padding:0;}
+.profile_menu li a{color:#979797;}
+.profile_menu ul li {    color: #979797;    margin-right: 10px;display: inline;border-right: 1px solid #979797; padding: 0px 10px;    margin: 0;}
+.profile_menu .last{border:none;}
+.profile_name h3 {text-shadow: 1px 1px 7px #4a4a4a;}
+.manejo_puntos_wrapper{background: white;width: 100%;display: inline-block;}
+.manejo_puntos{padding-top:20px;}
+.header-brown{  background-color: #988a81;    display: table; width: 100%;    padding-left: 15px;    padding-top: 2px;padding-right: 2px;padding-bottom: 15px;}
+.header-brown .puntos{color: #FFF;    font-size: 40px;    font-weight: 300;float: left;padding: 0 10px 0 0px;}
+.header-brown .label{float: left;    color: #FFF;    line-height: 15px;   padding-top: 12px;}
+.header-brown .ano{ float: right;   text-align: right; background-color: #FFF;   padding: 0px 10px; font-size: 35px;  color: #988a81; font-weight: bold;}
+.manejo_puntos .fila_gray{background-color: #f4f3f1;width: 100%;     display: table;padding: 10px 0px 0px 15px;}
+.manejo_puntos .cantidad, .manejo_puntos .etiqueta, .manejo_puntos .flecha {float: left;    color: #c7c0bc;font-weight: 300;}
+.manejo_puntos .flecha{    width: 30px;    height: auto;}
+.manejo_puntos .cantidad {    font-size: 12px;   margin-right: 10px;    line-height: 22px;}
+.manejo_puntos .etiqueta {    font-size: 12px;    margin-right: 10px;    line-height: 22px;}
+.manejo_puntos .fila{background-color: #FFFFFF;width: 100%;     display: table;padding: 10px 0px 0px 15px;}
+.yellow_text p{color:#fbd58a;}
+.yellow_text_strong p{color:#edb237;}
+.btn_ver_detalle{width: 100%;    position: absolute;    bottom: 10px;    right: 25px;}
+.btn_ver_detalle a{    float: right;    display: inline;    padding: 2px 10px;    border: 1px solid #cec7c4;    color: #cec7c4;    font-size: 14px;}
+.box_manejo_puntos { border: 1px solid #988a81;padding-bottom: 40px;    min-height: 301px;}
+.col_manejo_puntos_orange{width:38%;}
+.col_manejo_puntos { width: 31%;}
+.box_manejo_puntos, .box_manejo_puntos_orange{border-left: 1px solid #ede9e6;    border-bottom: 1px solid #ede9e6;    border-right: 1px solid #ede9e6;}
+.col_manejo_puntos, .col_manejo_puntos_orange{ position: relative;        padding-left: 0.7rem;        padding-right: 0.7rem;        float: left;}
+.box_manejo_puntos_orange{padding-bottom: 40px;    min-height: 301px;}
+.header-orange{    background-color: #f18904;    display: table; width: 100%;    padding-left: 20px;    padding-top: 2px;padding-right: 2px;padding-bottom: 0px;}
+.header-orange .puntos{color: #FFF;    font-size: 50px;    font-weight: 600;float: left;padding:1px 10px 0 0px;}
+.header-orange .label{float: left;    color: #FFF;    line-height: 18px;    padding-top: 16px;    font-size: 17px;}
+.header-orange .ano{ float: right;   text-align: right; background-color: #FFF;   padding: 0px 10px; font-size: 35px;  color: #f18904; font-weight: bold;}
+.box_manejo_puntos_orange .cantidad, .box_manejo_puntos_orange  .etiqueta{font-size:16px;color: #998b83;font-weight: 400;}
+.box_manejo_puntos_orange .fila_gray{padding: 25px 0px 10px 15px;}
+.box_manejo_puntos_orange .fila{padding:45px 0px 30px 15px;}
+.btn_ver_detalle_orange{   position: absolute;    bottom: 10px;    right: 25px;}
+.btn_ver_detalle_orange a{    float: right;    display: inline;    padding: 2px 10px;    border: 1px solid #cec7c4;    color: #cec7c4;    font-size: 14px;}
+.btn_depositar{    position: absolute;    bottom: 10px;    left: 25px; background-color: #3ab54a;}
+.btn_depositar a{    float: left;    display: inline;  padding: 2px 10px;    border: 1px solid #3ab54a;    color: #ffffff;    font-size: 14px;}
+.reservaciones_pagos_wrapper{margin-top: 35px;}
+.reservaciones_pagos .brown_circle, .reservaciones_pagos, .reservaciones_pagos .lugar {color: #FFFFFF;font-weight: 300;}
+.reservaciones_pagos .brown_circle{margin-right: 20px;    vertical-align: middle;    float: left;}
+.reservaciones_pagos .header-brown{padding-bottom: 5px;    padding-top: 5px;}
+.reservaciones_pagos .label{     color: #FFF;    float: left;    line-height: 26px;    padding-top: 0;margin-right: 30px;}
+.reservaciones_pagos .fecha{     color: #FFF;    float: left;    line-height: 26px;    padding-top: 0;margin-right: 30px;}
+.reservaciones_pagos .lugar {color: #FFF;    line-height: 26px;    padding-top: 0px;}
+.title_reservaciones_pagos h3{color: #f4b11f;    text-align: center;    font-size: 23px;    font-weight: 600;}
+.title_reservaciones_pagos{padding:10px 0;}
+.historico{    background-color: #ede9e6; padding: 10px 0; width: 100%; display: inline-block;}
+.historico .yellow_square{float: left;  margin:0px 25px 0px 50px;}
+.historico .label{color:#988a81;margin-right: 0px;}
+.historico .lugar{color:#988a81;padding-left: 20px;}
+.historico td {    padding: 8px 0;}
+.left_table_historico {    border-right: 1px solid #988a81;background-color: #ede9e6;    padding-left: 50px;}
+.right_table_historico {  background-color: #ede9e6;    }
+.table_pagos .titulos_table_pagos {    background-color: #988a81;color:#FFFFFF;}
+.table_pagos {    border-collapse: collapse;    color: #988a81;    border: 1px solid #988a81;text-align: center;}
+.titulos_table_pagos th {    padding: 5px 0;border-right: 1px solid #ede9e6;}
+.table_pagos tr{border-bottom: 1px solid #988a81}
+.label_red{color: #d13137;}
+.btn_pagar a {    background-color: #3ab54a; color: #FFFFFF; padding: 0px 15px; width: 100px; display: block; text-align: center; margin: 0 auto;}
+.btn_pagado a {  background-color: #f4b11f; color: #FFFFFF; padding: 0px 15px; width: 100px;display: block; text-align: center; margin: 0 auto;}
+.table_pagos td {    padding: 15px 0;}
+.fecha_limite td{padding:0;}
+.btn_transferir_puntos a{background-color: #3ab54a;    color: #FFFFFF;    padding:6px 25px;}
+.btn_comprar_puntos a{background-color: #3ab54a;    color: #FFFFFF;    padding:6px 25px;}
+.btn_transferir_comprar { clear: both; text-align: center; margin-top: 50px; float: none; width: 100%; display: inline-block; margin-bottom: 80px;}
+.btn_comprar_puntos, .btn_transferir_puntos  {display: inline;}
+.icon_cuadrado{width: 40px;}
+
+/*DATOS PERSONALES*/
+.btn_editar_datos {    width: 20px;display: inline-block;}
+.datos_personales{   padding-top: 20px;}
+.datos_personales_wrapper{  background: white;    width: 100%;    display: inline-block;}
+.table_datos_personales{border:1px solid #f2efed;padding: 25px;color: #998c83;    margin-bottom: 100px;}
+.table_datos_personales td {    padding: 10px 0;}
+.header_table_datos_personales{    width: 170px;}
+.password_datos_personales input[type="password"] {    font-size: 45px;    color: #9f8c83;    border: none;    box-shadow: none;    padding: 0;
+    width: 100px;    float: left;    margin: 0;}
+
+
+/*************************************************** Comprar **************************************************/
+
+/*SEARCH*/
+#comprar .search-location-holder { background-color: #dcdcdc;}
+#comprar .search-block{    padding: 10px 0 0px 0;}
+#comprar .search-block input {     background: rgba(152,140,131,0.6);color: white;font-style: italic;border-radius: 8px;margin: 0 0 10px;}
+#comprar .search-block .select-holder:before{display:inline-block;font-family:FontAwesome;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}a{text-decoration:none;line-height:inherit;}
+#comprar ::-webkit-input-placeholder{color:white;opacity:1;}
+#comprar :-moz-placeholder{color:white;opacity:1;}
+#comprar ::-moz-placeholder{color:white;opacity:1;}
+#comprar :-ms-input-placeholder{color:white;opacity:1;}
+#comprar .search-block{padding:10px 15px 0px 15px;}
+#comprar .search-block h5{color:#4D4D4D;font-weight:700;}
+#comprar .search-block input{background:rgba(152,140,131,0.6);color:white;font-style:italic;border-radius:8px;margin:0 0 10px;}
+#comprar .search-block input.dp{cursor:pointer;}
+#comprar .search-block .select-holder{background:rgba(152,140,131,0.6);border-radius:8px;position:relative;}
+#comprar .search-block .select-holder:before{content:"\f107";color:white;position:absolute;top:11px;right:14px;font-size:30px;z-index:1;}
+#comprar .search-block .select-holder select{background:transparent;color:white;font-size:18px;font-style:italic;width:100%;height:50px;-webkit-appearance:none;-moz-appearance:none;appearance:none;padding:0 25px;position:relative;z-index:2;}
+#comprar .search-block button{margin-bottom:0;width:100%;height:50px}.elements-grid .single-element{position:relative;margin-bottom:20px;}
+.detalles_compra {    display: inline-block;    padding-bottom: 80px;/*border-bottom: 1px solid #f0a548;*/}
+.item_detalles_compra {padding: 5px 0;}
+.resumen_compra {width: 94%;margin: 0 auto;  padding: 100px 0;}
+.box_detalles_compra {border: 1px solid #e0e0e0;padding: 40px 15px 15px 15px;    margin: 0px 15px;    width: 30%}
+.box_resumen_compra:before {content: url(../img/icons/icono_circulo_numero_1.png);position: absolute; top: -50px; left: 39%;}
+.box_datos_huespedes:before {content: url(../img/icons/icono_circulo_numero_2.png);position: absolute; top: -50px; left: 39%;}
+.box_pago:before {content: url(../img/icons/icono_circulo_numero_3.png);position: absolute; top: -50px; left: 39%;}
+.title_box_detalles_compra h2 {color: #4d4d4d;font-size: 30px;text-align: center;font-weight: 600;padding-bottom: 25px;}
+.resumen_item_detalles_compra h3 {color: #ec8944;font-size: 19px;border-bottom: 1px solid #ec8944;font-weight: 600;padding-bottom: 4px;    margin-bottom: 10px;}
+.resumen_item_detalles_compra p {color: #a29792;    font-size: 14px;margin-bottom: 0px;    line-height: 23px;    font-weight: 300;}
+.resumen_item_detalles_compra p span {color: #ed8a44;}
+.item_detalles_compra h2 {color: #a29792;font-weight: 600; font-size: 15px;margin-top: 10px;margin-bottom: 5px;}
+.box_detalles_compra a {color: #ed8a44;text-align: right;display: block;font-style: italic;font-size: 14px;font-weight: 300;}
+.icon_eliminar{content:url(../img/icons/icono_eliminar.jpg);vertical-align: bottom;    margin-left: 5px;}
+.datos_socio h3 {color: #a29792;border: none;font-weight: 400;font-size: 24px; line-height: 7px; margin: 20px 0px;    padding-left: 10px;}
+.resumen_item_detalles_compra form input {     background: #eeeeee;height: 35px;border-radius: 0;border: 0; box-shadow: none;}
+.resumen_item_detalles_compra .group_input_detalles_compra{    width: 48%;    float: left;    margin-right: 10px;}
+.resumen_item_detalles_compra .group_input_detalles_compra_last{    width: 48%;    float: right;}
+.editar_datos_detalle_compra h2 {color: #ec8944;font-size: 17px;font-weight: 400;padding-bottom: 4px; margin-bottom: 10px;    padding-top: 5px;}
+.editar_datos_detalle_compra h3 {color: #ec8944;font-size: 17px;font-weight: 300;    padding-bottom: 0px;margin-bottom: 5px;border: none;}
+.editar_datos_detalle_compra {    color: #a29792;    font-weight: 300;}
+.editar_datos_detalle_compra input[type="submit"] {background-color: #ec8944; margin: 0 auto;text-align: center;display: block;color: #FFFFFF;font-size: 20px;text-transform: uppercase; font-weight: 400;}
+.pago_detalles_compra h2 {color: #a29792;border: none;font-weight: 400;font-size: 24px;line-height: 7px;margin: 20px 0px;}
+.pago_detalles_compra input{background: #eeeeee;height: 35px;border-radius: 0; border: 0; box-shadow: none;margin-bottom: 5px;}
+.pago_detalles_compra { color: #a29792;font-weight: 300;}
+.pago_detalles_compra label {color: #a29792; font-weight: 300; padding-left: 10px;    margin-bottom: 5px;}
+.group_codigo_seguridad input { width: 135px;display: inline-block;}
+.group_codigo_seguridad label { display: block;}
+.group_codigo_seguridad p {    font-size: 14px;    margin-left: 15px;    display: inline-block;}
+.group_fecha_caducidad label { display: block;}	
+.submit_pago {    margin-top:75px;	    margin-bottom: 35px;}
+.pago input[type="submit"] {background-color: #40a94a; width: 60%;margin: 0 auto;text-align: center;display: block;color: #FFFFFF;font-size: 20px;font-weight: 400;height: 30px;}
+.notice_pago img { float: left; margin-right: 15px;}
+.notice_pago p {font-size: 10px; vertical-align: middle; line-height: 14px;}
+.group_radio_pagar_wrapper{width:90%;margin: 0 auto;} 
+.group_radio_pagar img {  display: block;}
+.group_radio_pagar {    margin: 0 10px 10px 10px;  float: left;   text-align: center;    width: 24%;}
+.group_fecha_caducidad select { width: 45%; float: left;  margin-right: 20px;    display: block;    background-color: #eeeeee; border: none;height: 28px;font-size: 16px;background-image: url(../img/buttons/btn_select.jpg); -webkit-appearance: none; -moz-appearance: none;
+    appearance: none;    padding: 0px 0 0 10px;    border-radius: 0px;    background-repeat: no-repeat;    background-position: right;}
+.group_fecha_caducidad select:last-child {width: 45%;   float: left;  margin-right: 0px;}
+
+
+/*********************************************CHECKOUT*************************************/
+#checkout .title_wrapper {background-color: #dcdcdc;display: inline-block;width: 100%;}
+#checkout .header_checkout { margin: 0 auto;}
+#checkout .header_checkout h1 {font-size: 25px;color: #ed8b44;font-weight: bold;padding: 10px 0;}
+.title_checkout_wrapper {background-color: #dcdcdc;    padding: 5px 0;}
+.title_checkout{margin: 0 auto;float: none;}
+.details_checkout {  margin-bottom: 40px;  display: inline-block;}
+.details_checkout li{list-style: none;width: 49%;	text-align: center; display: inline-block;  padding: 10px 0; font-size: 20px;}
+.details_checkout li a{color:#ababab;    display: block;}
+.details_checkout .active a{color:#ed8b44;}
+.tabs_checkout { margin: 0 auto; padding: 0;background-color: #efefef;}
+.tabs_checkout li:first-child a {border-right: 1px solid #ababab; }
+.center_hor_div {margin: 0 auto;}
+.checkout_wrapper {margin-top: 40px;}
+.confirmacion_compra_wrapper {text-align: center;    padding-top: 30px;    width: 85%;    margin: 0 auto;}
+.confirmacion_compra_wrapper h2{color:#ed8b44;font-size: 21px;padding-bottom: 20px;}
+.confirmacion_compra_wrapper h2 span { margin-left: 20px;}
+.confirmacion_compra_wrapper h3{color:#b3b3b3;font-size: 23px;padding-bottom: 20px;}
+.confirmacion_compra_wrapper h3 span{font-weight: 300;font-size: 21px;}
+.confirmacion_compra_wrapper p{font-weight: 300;color:#b3b3b3; line-height: 1.5em;}
+.title_detalles_compra{ color:#ed8b44; }
+.title_detalles_compra_wrapper{ background-color: #efefef;color:#ed8b44; float: none;     padding: 5px 0;    display: inline-block;
+    width: 100%;    margin-bottom: 30px;}
+.detalles_compra_checkout_container h2 {background-color: #ed8b44;display:inline-block;font-size: 22px;color: #FFFFFF;padding: 5px 0px 5px 20px;    margin-bottom: 15px;width: 100%;}
+.detalles_compra_checkout_container h3 {font-size: 21px; color: #9a9a9a;font-weight: 300;    padding-bottom: 5px;}
+.detalles_compra_checkout_container p span {    font-weight: 400; color: #818181; font-size: 15px;}
+.detalles_compra_checkout_container p { color: #9a9a9a; font-size: 14px; line-height: 14px; font-weight: 300;}
+.detalles_contacto_checkout_wrapper {border-top: 1px solid #e6e6e6; clear: both; padding: 10px 0 0px 0;}
+.detalles_contacto_checkout_wrapper h5, .title_detalles_contacto_checkout h5{    color: #ed8b44;}
+.title_compra_checkout{color: #ed8b44; margin: 0 auto;    float: none;}
+.detalles_contacto_checkout { display: block; width: 100%;}
+.title_detalles_contacto_checkout{ background-color: #efefef; display: inline-block; width: 100%;  padding: 5px 0;    margin-bottom: 20px;}
+.detalles_contacto_checkout p, .cancelacionesypoliticas_checkout_wrapper p  { color: #9f9f9f;  font-size: 14px;}
+.menu_checkout li {display: block;   background-color: #978a82;padding: 10px 0px; margin: 10px 0px;  text-align: center;}
+.menu_checkout a{    color: #FFF;    font-size: 20px;}
+.menu_checkout .active {background-color: #ed8b44;}
+
+/*********************************************SEARCH BAR********************************************/
+
+#searchbar .search-location-holder { background-color: #dcdcdc;}
+#searchbar .search-block{    padding: 10px 0 0px 0;}
+#searchbar .search-block input {     background: rgba(152,140,131,0.6);color: white;font-style: italic;border-radius: 0px;margin: 0 0 10px;}
+#searchbar .search-block .select-holder:before{display:inline-block;font-family:FontAwesome;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}a{text-decoration:none;line-height:inherit;}
+#searchbar ::-webkit-input-placeholder{color:white;opacity:1;}
+#searchbar :-moz-placeholder{color:white;opacity:1;}
+#searchbar ::-moz-placeholder{color:white;opacity:1;}
+#searchbar :-ms-input-placeholder{color:white;opacity:1;}
+#searchbar .search-block{padding:10px 15px 0px 15px;}
+#searchbar .search-block h5{color:#4D4D4D;font-weight:700;}
+#searchbar .search-block input{background:rgba(152,140,131,0.6);color:white;font-style:italic;border-radius:0px;margin:0 0 10px;}
+#searchbar .search-block input.dp{cursor:pointer;}
+#searchbar .search-block .select-holder{background:rgba(152,140,131,0.6);border-radius:8px;position:relative;}
+#searchbar .search-block .select-holder:before{content:"\f107";color:white;position:absolute;top:11px;right:14px;font-size:30px;z-index:1;}
+#searchbar .search-block .select-holder select{background:transparent;color:white;font-size:18px;font-style:italic;width:100%;height:50px;-webkit-appearance:none;-moz-appearance:none;appearance:none;padding:0 25px;position:relative;z-index:2;}
+#searchbar .search-block button{margin-bottom:0;width:100%;height:50px}.elements-grid .single-element{position:relative;margin-bottom:20px;}
+
+
+/*************************************************BUTTONS************************************************/
+.btn_gray{    background-color: #b3b3b3; color: #FFFFFF; padding: 8px 15px;}
+.btn_orange{background-color: #ed8b44;}
+.btn_green{background-color: #40a94a;}
+.btn_white{background-color: #FFFFFF; color:#ed8b44;}
+.gray_box{background-color: #dcdcdc; }
+.gray_bg{background-color:#b3b3b3;}
+.line_gray{border-top: 1px solid gainsboro;}
+
+/*********************************************RESUMEN DE RESERVACION********************************************/
+#resumen_reservacion h2{background-color: #ed8b44;display: inline-block;font-size: 21px;color: #FFFFFF;padding: 5px 0px 5px 20px;margin-bottom: 15px; width: 100%;font-weight: 400;}
+#resumen_reservacion h3{    color: #e78806;font-size: 20px;font-weight: 400;    padding: 0px 0px 0px 10px; margin: 0px 0px 10px 0px;}
+#resumen_reservacion h4{    color: #e78806;background-color: #efefef;width: 100%;display: inline-block; font-size: 19px; font-weight: 400;   padding: 10px 0px 10px 10px;}
+#resumen_reservacion h5{    color: #e78806;font-size: 18px;font-weight: 400;  padding: 0;margin: 0px 0px 10px 0px;  text-align: right;}
+#resumen_reservacion h6{color: #FFFFFF; font-size: 20px; font-weight: 400; padding-top: 5px; margin: 0px 0px 0px 0px; text-align: right;  padding-bottom: 5px;    padding-right: 20px}
+#resumen_reservacion p{    color: #9a9a9a; font-size: 12px;  margin: 0 0 8px 10px;}
+#resumen_reservacion_wrapper{    margin-top: 40px;}
+.descripcion_reservacion{   margin-bottom: 40px;    display: inline-block;}
+.info_container{margin: 20px 0;  width: 100%;  height: 100%;   display: inline-block;}
+.detalles_box {display: inline-block;  width: 100%;  height: 100%;}
+.btn_bottom_modificar{position: absolute;bottom: 30px;right: 0;}
+.btn_bottom_modificar_wrapper {    height: 150px;}
+.btn_agregar { position: absolute;   right: 4px;   top: 4px;font-size: 15px;padding: 2px 21px;}
+.btn_agregar a{color:#ed8b44;}
+.btn_agregar_wrapper{position: relative;}
+.mini_resumen_reservacion {  display: inline-block;    padding: 25px;}
+.container_mini_resumen_wrapper {    display: inline-block;    margin-bottom: 20px;}
+.btn_agregar_producto {    width: 200px;   text-align: center;  margin: 15px auto;  padding: 3px 0;}
+.btn_agregar_producto a, .btn_continuar a { color: #FFFFFF !important;   font-weight: 300;    font-size: 14px;}
+.btn_agregar_producto_wrapper {display: inline-block; width: 100%; height: 100%;}
+.btn_continuar {  width: 200px;  display: block;   margin: 30px auto;   padding: 2px 0;}
+
+/**************************************************** MEDIA QUERIES *******************************************/
+
+
+@media only screen and (max-width: 1500px){
+.header-miperfil .col-1-4 { width: 24%;}
+}
+
+@media only screen and (max-width: 1250px){
+.box_manejo_puntos_orange .cantidad, .box_manejo_puntos_orange .etiqueta { font-size: 15px;}
+.manejo_puntos .etiqueta {    font-size: 10px;}
+.reservaciones_pagos .label {    font-size: 14px;}
+.reservaciones_pagos .fecha{   font-size: 14px;}
+.right_table_historico {    font-size: 14px;}
+.header-brown .label {    font-size: 14px;}
+.header-brown .puntos {font-size: 35px;}
+.header-orange .puntos {    font-size: 45px;}
+.header-brown .ano {    font-size: 30px;}
+.header-orange .label{font-size: 15px;}
+
+}
+
+
+@media only screen and (min-width: 775px) and (max-width: 958px){
+.editar_datos_detalle_compra input[type="submit"]{    font-size: 1.5vw;}
+.resumen_item_detalles_compra .group_input_detalles_compra, .resumen_item_detalles_compra .group_input_detalles_compra_last{	width: 100%; float: none;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+.editar_datos_detalle_compra input[type="submit"]{    font-size: 1.5vw;}
+.resumen_item_detalles_compra .group_input_detalles_compra, .resumen_item_detalles_compra .group_input_detalles_compra_last{	width: 100%; float: none;}
+.box_detalles_compra{    width: 29%;}
+.group_fecha_caducidad select, .group_fecha_caducidad select:last-child{width: 100%;float: none;margin-bottom: 5px;}
+.pago_detalles_compra label { clear: both;    display: block;}
+.group_radio_pagar_wrapper { width: 100%;   margin: 0 auto;}
+.box_resumen_compra:before, .box_datos_huespedes:before, .box_pago:before{left: 30%;}
+.group_radio_pagar{    width: 22%;}
+.datos_socio h3 { line-height: 26px; display: inline-block;   margin: initial;}
+.datos_socio { margin-bottom: 15px};
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 990px){
+.col_manejo_puntos_orange {    width: 36%;}
+.col_manejo_puntos {    width: 32%;}
+.box_manejo_puntos_orange .cantidad, .box_manejo_puntos_orange .etiqueta { font-size: 13px;}
+.manejo_puntos .etiqueta {    font-size: 10px;}
+.manejo_puntos .cantidad   {  font-size: 10px;    margin-right: 5px;}
+.reservaciones_pagos .label {    font-size: 12px;}
+.right_table_historico {    font-size: 12px;}
+.header-brown .label {    font-size: 12px;line-height: 14px;}
+.header-brown .puntos {font-size: 30px;}
+.header-orange .puntos {    font-size: 40px;}
+.header-brown .ano {    font-size: 35px;}
+.header-orange .label{font-size: 13px; line-height: 15px;}
+.table_pagos .titulos_table_pagos {font-size: 13px;}
+.btn_depositar a{    font-size: 12px;}
+.reservaciones_pagos .lugar {    font-size: 12px;}
+.reservaciones_pagos .fecha{   font-size: 12px;}
+.manejo_puntos .etiqueta{    margin-right: 5px;}
+}
+
+@media only screen and (max-width: 989px) and (min-width: 900px){
+.col_manejo_puntos_orange {    width: 35%;}
+.col_manejo_puntos {    width: 32.5%;}
+.box_manejo_puntos_orange .cantidad, .box_manejo_puntos_orange .etiqueta { font-size: 12px;}
+.manejo_puntos .etiqueta {    font-size: 10px;}
+.manejo_puntos .cantidad   {  font-size: 10px;    margin-right: 3px;}
+.reservaciones_pagos .label {    font-size: 11px;}
+.right_table_historico {    font-size: 11px;}
+.header-brown .label {    font-size: 11px;line-height: 13px;padding-top: 4px;}
+.header-brown .puntos {font-size: 25px;}
+.header-orange .puntos {    font-size: 35px;}
+.header-brown .ano {    font-size: 30px;}
+.header-orange .label{font-size: 11px; line-height: 13px;padding-top: 10px;	}
+.table_pagos .titulos_table_pagos {font-size: 11px;}
+.btn_depositar a{    font-size: 10px;}
+.btn_ver_detalle_orange a{    font-size: 10px;}
+.reservaciones_pagos .lugar {    font-size: 11px;}
+.reservaciones_pagos .fecha{   font-size: 11px;}
+.manejo_puntos .etiqueta{    margin-right: 3px;}
+.manejo_puntos .fila_gray{padding: 10px 0px 0px 8px;}
+.manejo_puntos .fila{padding: 10px 0px 0px 8px;}
+.header-brown{padding-left: 8px;}
+.header-orange{padding-left: 8px;}
+.manejo_puntos .flecha {    width: 20px;    height: auto;}
+.icon_cuadrado{width: 20px;}
+.header-miperfil .col-3-4 {    width: 72%;}
+.header-miperfil .col-1-4 {    width: 28%;}
+}
+@media only screen and (max-width: 899px) and (min-width: 768px){
+.header-miperfil .col-3-4 {    width: 70%;}
+.header-miperfil .col-1-4 {    width: 30%;}
+.header-brown .puntos{    float: none;}
+.header-orange .label {    float: left; padding-top: 0px;}
+.header-orange .puntos{float: none;}
+.manejo_puntos .cantidad{display: block;    width: 100%;font-size: 14px;}
+.manejo_puntos .etiqueta{font-size:14px;    display: block;    width: 100%;}
+.btn_depositar a {    font-size: 10px;}
+.btn_ver_detalle_orange a{    font-size: 10px;}
+.left_table_historico{    padding-left: 15px;}
+.reservaciones_pagos .label {    font-size: 10px;}
+.historico .lugar{padding-left: 10px; font-size: 11px;}
+.reservaciones_pagos .fecha{font-size: 10px;    margin-right: 10px;}
+.reservaciones_pagos .lugar{font-size: 10px;}
+.reservaciones_pagos .brown_circle{    margin-right: 10px;}
+.icon_cuadrado {    width: 25px;}
+.table_pagos{font-size: 11px;}
+.btn_ver_detalle_orange{right:12px;}
+.btn_depositar{    left: 12px;}
+.container_mini_resumen_reservacion .col-8-12, .container_mini_resumen_reservacion .col-4-12 { width: 100%;}
+.mini_resumen_reservacion { display: inline-block;  padding: 15px 10px;}
+#resumen_reservacion h5 {  text-align: left;    padding-left: 25px;}
+.info_container .col-3-12, .info_container .col-6-12 { width: 100%;}
+#resumen_reservacion h3 {  text-align: left;}
+.btn_bottom_modificar {    bottom: 10px; }
+.btn_bottom_modificar_wrapper {  height: 100%;}
+#resumen_reservacion h2 {padding: 5px 0px 5px 0px;text-align: center;}
+
+}
+
+@media and (max-width: 926px) and (min-width: 899px){
+.box_detalles_compra { margin: 0px 14px;}
+}
+
+@media all and (max-width: 767px){
+
+	.header-miperfil {padding: 10px 0 0 0px;width: 100%;}
+	.profile_picture {    width: 120px;    height: 120px;    margin: 0 auto;    padding-top: 40px;}
+	.header-miperfil .col-1-4, .header-miperfil .col-3-4 {    width: 100%;    padding-left: 0;}
+	.mi_perfil_menu_wrapper {    text-align: center;}	
+	.profile_menu li a{font-size: 11px;}
+	.profile_menu ul li {    padding: 0px 5px;}
+	.col_manejo_puntos, .col_manejo_puntos_orange{width: 100%;}
+	.box_manejo_puntos {    min-height: initial;}
+	.mi_perfil_container .col-sm-6-12 {    width: 100%;padding-left: 0;    padding-right: 0;}
+	.resumen_compra { width: 94%;     margin: 60px auto 0 auto;padding: 0;}
+	.group_radio_pagar_wrapper { width: 100%;  margin: 0 auto;  display: inline-block;}
+	.box_detalles_compra { width:100%;margin: 60px 0 0 0;    position: relative; }
+	.checkout_wrapper .col-8-12, .checkout_wrapper .col-4-12 {width: 100%;    }
+
+
+}
+
+@media only screen and (max-width: 520px){
+	.left_table_historico {    padding-left: 15px;}
+	.reservaciones_pagos .fecha {    width: 85%;    float: none;}
+	.reservaciones_pagos .lugar {    margin-left: 35px;}
+	.icon_cuadrado {    width: 10px;}
+	.right_table_historico .lugar {    margin-left: 0;    font-size: 12px;}
+	.left_table_historico .label{font-size: 12px;}
+	.historico .lugar{padding-left: 0px;}
+	.reservaciones_pagos .brown_circle {    margin-right: 5px;}
+	.btn_depositar, .btn_ver_detalle_orange {position: relative;display: inline-block;left: initial;right: initial;bottom: initial;text-align: center;
+    width: 100%;margin-bottom: 10px;clear: both;}
+    .btn_ver_detalle_orange a {float: none;display: block;padding: 10px;}
+    .btn_depositar a {    float: none;}
+	.btn_depositar{padding:10px;}
+	.btn_transferir_puntos, .btn_comprar_puntos {    display: block;    margin-bottom: 20px;}
+	.btn_transferir_puntos a, .btn_comprar_puntos a {    padding: 10px;    width: 90%;    display: block;    margin: 0 auto;}
+	.header-brown .puntos, .header-orange .puntos {    float: none;}
+	.header-orange .label{padding-bottom: 20px;}
+	.table_datos_personales tr {    margin: 20px 0;    display: block;}
+	.table_datos_personales td {    display: block;    padding: 0;}
+	.group_radio_pagar_wrapper { width: 100%;}
+	.editar_datos_detalle_compra input[type="submit"] { width: 100%;}
+	.detalles_box_checkout .col-2-12 , .detalles_box_checkout .col-10-12 { width: 100%;}
+	.detalles_box_checkout img {width: 100%;height: auto;margin-bottom: 20px;} 
+	.info_container .col-6-12, .info_container .col-3-12 {width: 100%;}
+	.info_container .col-3-12 {text-align: left;margin: 20px 0; padding: 0;}
+	.btn_bottom_modificar_wrapper {height: 100%;}
+	.container_mini_resumen_reservacion .col-8-12, .container_mini_resumen_reservacion .col-4-12 {width: 100%;}
+	#resumen_reservacion h5 {text-align: left; padding-left: 25px; padding-bottom: 10px;}
+	.mini_resumen_reservacion {padding: 20px 0px;}
+	.btn_bottom_modificar {  position: relative;   bottom: 0;}
+	.detalles_box .col-3-12, .detalles_box .col-9-12 { width: 100%;}
+	#resumen_reservacion h3 {  margin: 10px 0;}
+	.info_container .detalles_padding {  padding: 0;   margin: 0;   height: 0;}
+
+}
+
+@media only screen and (max-width: 350px){
+.left_table_historico {    padding-left: 0px;}
+.table_pagos td, .table_pagos th {    width: 100%;    display: block;}
+.group_fecha_caducidad select{width: 100%;float: none;margin-bottom: 10px;}
+.group_fecha_caducidad select:last-child{width: 100%;float: none;}
+.resumen_item_detalles_compra .group_input_detalles_compra_last {float: none; width: 100%;}
+.resumen_item_detalles_compra .group_input_detalles_compra { float: none;  width: 100%;}
+}
